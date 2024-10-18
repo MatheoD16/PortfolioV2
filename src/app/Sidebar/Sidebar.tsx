@@ -2,10 +2,16 @@
 
 import styles from './sidebar.module.css';
 import Link from "next/link";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 
 export default function Sidebar() {
-    const [isExpanded, setIsExpanded] = useState(true);
+    const [isExpanded, setIsExpanded] = useState(false);
+
+    useEffect(() => {
+        if (window.innerWidth > 1000){
+            setIsExpanded(true)
+        }
+    }, []);
 
     const toggleSidebar = () => {
         setIsExpanded(!isExpanded);
