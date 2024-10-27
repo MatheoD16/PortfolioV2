@@ -3,8 +3,9 @@
     background-color: #1d1f2a;
     border-right: 1px solid #000000;
     padding-top: 20px;
-    position: relative;
+    position: fixed;
     transition: width 0.3s ease;
+    z-index: 1000;
 }
 
 /* Largeur rétractée */
