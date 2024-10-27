@@ -1,0 +1,8 @@
+.project-image {
+    width: 100%; /* Prend la largeur du parent */
+    height: auto; /* Maintient le ratio */
+    object-fit: cover;
+    border-radius: 8px; /* Coins arrondis pour l'esthétique */
+    max-width: 300px; /* Largeur max pour contrôle */
+}
+
