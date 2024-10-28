@@ -1,0 +1,24 @@
+/* IntroText.module.css */
+.intro h1 {
+    font-size: 3rem; /* Taille pour le titre principal */
+    font-weight: bold;
+}
+
+.intro h2 {
+    font-size: 2rem; /* Taille pour le sous-titre */
+    font-weight: bold;
+}
+
+.intro h5 {
+    font-size: 1.25rem; /* Taille pour le texte */
+}
+
+.intro h3 {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.intro .btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem; /* Taille du texte du bouton */
+}

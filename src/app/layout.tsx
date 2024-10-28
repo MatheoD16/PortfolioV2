@@ -15,8 +15,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Mon portfolio",
-  description: "Welcome to my portfolio",
+  title: "Mathéo Dupuis - Développeur - Portfolio",
+  description: "Bienvenue sur mon portfolio !",
 };
 
 export default function RootLayout({
