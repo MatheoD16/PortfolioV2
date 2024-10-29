@@ -1,6 +1,18 @@
 import './projectModal.module.css' ;
 import {Dialog, DialogContent, DialogContentText, DialogTitle} from "@mui/material";
 import Image from "next/image";
+import {JSX} from "react";
+
+interface ProjectModalProps{
+    open: boolean;
+    onClose : () => void;
+    title: string;
+    image: string;
+    infos?: JSX.Element;
+    descriptionFull: string;
+    repository: string;
+
+}
 
 export default function ProjectModal({
                                          open,
@@ -10,7 +22,7 @@ export default function ProjectModal({
                                          infos,
                                          descriptionFull,
                                          repository
-                                     }) {
+                                     }:ProjectModalProps) {
 
     const style = {
         background: '#1d1f2a'

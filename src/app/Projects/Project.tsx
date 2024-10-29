@@ -1,6 +1,6 @@
 "use client";
 
-import {useState} from "react";
+import React, {useState} from "react";
 import ProjectModal from "@/app/Projects/Modal/ProjectModal";
 import Image from "next/image";
 
@@ -9,7 +9,7 @@ export default function Project({
                                     description = '',
                                     descriptionFull = '',
                                     image = '',
-                                    infos = null,
+                                    infos = <></>,
                                     repository = ''
                                 }) {
     const [open, setOpen] = useState(false);
@@ -23,7 +23,7 @@ export default function Project({
     }
 
     // Fonction pour gérer la pression de la touche
-    function handleKeyDown(event) {
+    function handleKeyDown(event : React.KeyboardEvent<HTMLButtonElement>) {
         if (event.key === 'Enter' || event.key === ' ') {
             event.preventDefault(); // Empêche le comportement par défaut de la touche Espace
             handleOpen();
