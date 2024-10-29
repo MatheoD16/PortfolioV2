@@ -17,7 +17,7 @@ export default function Contact() {
                                 <h3>matheodupuis1@gmail.com</h3>
                                 <a href="mailto:matheodupuis1@gmail.com"
                                    aria-label="Envoyer un mail"
-                                   className="btn btn-info text-white mt-2 w-auto"><strong>Me contacter</strong></a>
+                                   className="btn btn-info mt-2 w-auto"><strong>Me contacter</strong></a>
                             </div>
                         </div>
                     </div>
