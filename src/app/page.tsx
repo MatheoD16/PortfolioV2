@@ -4,12 +4,14 @@ import MainPage from "@/app/MainPage/MainPage";
 
 export default function Home() {
     return (
-        <div className="d-flex">
-            <Sidebar />
+        <>
+            <div className="d-flex">
+                <Sidebar/>
 
-            <div className="flex-grow-1 p-2" style={{ marginLeft: '60px' }}>
-                <MainPage />
+                <div className="flex-grow-1 p-2" style={{marginLeft: '60px'}}>
+                    <MainPage/>
+                </div>
             </div>
-        </div>
+        </>
     );
 }

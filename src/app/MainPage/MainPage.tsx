@@ -6,8 +6,6 @@ import Contact from "@/app/AboutMe/Contact";
 
 export default function MainPage() {
 
-    //TODO Améliorer logos sidebar + footer
-
     return (
         <>
             <div className={`text-center m-2 shadow border-black rounded p-2 ${styles.mainContent}`}>
