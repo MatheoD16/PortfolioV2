@@ -1,12 +1,14 @@
 .sidebar {
     height: 100vh;
+    min-height: -webkit-fill-available; /* pour certaines versions de Safari */
     background-color: #1d1f2a;
     border-right: 1px solid #000000;
-    padding-top: 20px;
     position: fixed;
+    width: 100%;
     transition: width 0.3s ease;
     z-index: 1000;
 }
+
 
 /* Largeur rétractée */
 .collapsed {

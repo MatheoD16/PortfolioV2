@@ -3,6 +3,8 @@
 import styles from './sidebar.module.css';
 import Link from "next/link";
 import {useState} from "react";
+import {DeveloperBoard, Email, GitHub, Home, Person} from "@mui/icons-material";
+import Image from "next/image";
 
 export default function Sidebar() {
     const [isExpanded, setIsExpanded] = useState(false);
@@ -16,20 +18,20 @@ export default function Sidebar() {
             <div className={styles.toggleButton} onClick={toggleSidebar}>
                 {isExpanded ? '<<' : '>>'}
             </div>
-            {isExpanded && <h4 className="text-center text-white">Mon Portfolio</h4>}
-            <div className="d-flex flex-column pt-3">
-                <Link href="/" className={styles.navItem}>
-                    {isExpanded ? 'Accueil' : 'A'}
-                </Link>
-                <Link href="/projects" className={styles.navItem}>
-                    {isExpanded ? 'Projets' : 'P'}
-                </Link>
-                <Link href="/about" className={styles.navItem}>
-                    {isExpanded ? 'À propos' : 'À'}
-                </Link>
-                <Link href="/contact" className={styles.navItem}>
-                    {isExpanded ? 'Contact' : 'C'}
-                </Link>
+            <div className="d-flex flex-column">
+
+                <a href="#accueil" className={styles.navItem}>
+                    {isExpanded ? <h4 className="text-center text-white">Mon Portfolio</h4> : <Home/>}
+                </a>
+                <a href="#aboutMe" className={styles.navItem}>
+                    {isExpanded ? 'À propos' : <Person/>}
+                </a>
+                <a href="#projects" className={styles.navItem}>
+                    {isExpanded ? 'Projets' : <DeveloperBoard/>}
+                </a>
+                <a href="#contact" className={styles.navItem}>
+                    {isExpanded ? 'Contact' : <Email/>}
+                </a>
             </div>
         </div>
     );

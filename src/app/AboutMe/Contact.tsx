@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Contact() {
     return (
         <>
-            <div className={`intro text-center text-white ${styles.intro}`} style={{ marginTop: 100, marginBottom: 100 }}>
+            <div id="contact" className={`intro text-center text-white ${styles.intro}`} style={{ marginTop: 100, marginBottom: 100 }}>
                 <h1 className={"mb-5"}>Me Contacter</h1>
 
                 <div className="row justify-content-center">

@@ -2,8 +2,8 @@ import styles from "@/app/AboutMe/IntroText.module.css";
 
 export default function AboutMe() {
     return (
-        <div className={"text-center intro text-white"} style={{marginTop: 50, marginBottom: 50}}>
-            <h1 className={"mb-5"}>Informations Personnelles</h1>
+        <div id="aboutMe" className={`text-center intro text-white ${styles.intro}`} style={{marginTop: 50, marginBottom: 50}}>
+            <h1 className={"mb-5"}>À Propos</h1>
 
             <div className="d-flex flex-wrap text-white justify-content-center">
                 <ul className="list-unstyled shadow bg-secondary border-secondary rounded d-flex flex-wrap justify-content-center gap-3">

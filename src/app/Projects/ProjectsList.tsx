@@ -1,11 +1,12 @@
 import Project from "@/app/Projects/Project";
+import styles from "./project.module.css"
 
 export default function ProjectsList() {
 
     return (
         <>
-            <div>
-                <h5 className={"text-white text-start"}>Liste des projets :</h5>
+            <div id="projects" className={`text-center project text-white ${styles.project}`} style={{marginTop: 50, marginBottom: 50}}>
+                <h1 className={"text-white text-center mb-5 text-start"}>Mes projets</h1>
 
                 {/*First row*/}
                 <div className={"row text-white"}>

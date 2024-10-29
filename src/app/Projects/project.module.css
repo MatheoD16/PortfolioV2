@@ -6,3 +6,8 @@
     max-width: 300px; /* Largeur max pour contrôle */
 }
 
+.project h1{
+    font-size: 3rem; /* Taille pour le titre principal */
+    font-weight: bold;
+}
+

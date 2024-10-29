@@ -7,7 +7,7 @@ export default function Home() {
         <div className="d-flex">
             <Sidebar />
 
-            <div className="flex-grow-1 p-4" style={{ marginLeft: '60px' }}>
+            <div className="flex-grow-1 p-2" style={{ marginLeft: '60px' }}>
                 <MainPage />
             </div>
         </div>

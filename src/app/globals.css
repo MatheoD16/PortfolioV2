@@ -1,3 +1,7 @@
 .bg-kc{
     background-color: #0d1015;
 }
+
+html{
+    scroll-behavior: smooth;
+}
