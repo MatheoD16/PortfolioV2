@@ -69,7 +69,7 @@ export default function ProjectModal({
                             <a href={repository} target={'_blank'}>
                                 <div style={{position: 'relative', width: '100%', height: '75px'}}
                                      className={"mt-2 mb-2"}>
-                                    <Image src={'/github-mark-white.svg'}
+                                    <Image src={'/PortfolioV2/github-mark-white.svg'}
                                            alt={'Github logo'}
                                            loading={'lazy'}
                                            width='150'

@@ -86,7 +86,7 @@ export default function ProjectsList() {
                                 "Ce projet est un projet de groupe que j'ai fais pour mes études. " +
                                 "Il consiste en une librairie Java qui permet de générer des images à partir d'un fichier de configuration."
                             }
-                            image={"/PortfolioV2/Raytracer.png"}
+                            image={"/PortfolioV2/RayTracer.png"}
                             infos={
                                 <div className={'justify-content-center'}>
                                     <ul className={'row list-unstyled'}>
