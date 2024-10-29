@@ -19,7 +19,7 @@ export default function ProjectsList() {
                                 "Ce projet est un jeu de morpion que j'ai réalisé en à peu près 1 semaine pendant mon temps libre." +
                                 " J'ai utilisé Java car c'est un langage que j'aime."
                             }
-                            image={"/TicTacToe.png"}
+                            image={"/PortfolioV2/TicTacToe.png"}
                             infos={
                                 <div className={'justify-content-center'}>
                                     <ul className={'row list-unstyled'}>
@@ -54,7 +54,7 @@ export default function ProjectsList() {
                                 "Il permet de jouer au pendu avec le nom des membres de la Kcorp, une équipe esport que j'aime beaucoup. " +
                                 "Le site n'est pas en ligne mais le code est disponible sur Github."
                             }
-                            image={"/Kc-pendu.png"}
+                            image={"/PortfolioV2/Kc-pendu.png"}
                             infos={
                                 <div className={'justify-content-center'}>
                                     <ul className={'row list-unstyled'}>
@@ -86,7 +86,7 @@ export default function ProjectsList() {
                                 "Ce projet est un projet de groupe que j'ai fais pour mes études. " +
                                 "Il consiste en une librairie Java qui permet de générer des images à partir d'un fichier de configuration."
                             }
-                            image={"/Raytracer.png"}
+                            image={"/PortfolioV2/Raytracer.png"}
                             infos={
                                 <div className={'justify-content-center'}>
                                     <ul className={'row list-unstyled'}>
@@ -123,7 +123,7 @@ export default function ProjectsList() {
                                 "Ce projet est un pokedex en ligne. Il utilise une api pokemon openSource. " +
                                 "Il a été réalisé en Flask et c'est la première fois que j'ai utilisé cette technologie."
                             }
-                            image={"/WebPoke.png"}
+                            image={"/PortfolioV2/WebPoke.png"}
                             infos={
                                 <div className={'justify-content-center'}>
                                     <ul className={'row list-unstyled'}>
@@ -157,7 +157,7 @@ export default function ProjectsList() {
                                 "C'est un des projets les plus important que j'ai fais durant mes études. " +
                                 "La répartition des tâches et le travail collaboratif étaient cruciaux."
                             }
-                            image={"/Flatcraft.png"}
+                            image={"/PortfolioV2/Flatcraft.png"}
                             infos={
                                 <div className={'justify-content-center'}>
                                     <ul className={'row list-unstyled'}>
@@ -191,7 +191,7 @@ export default function ProjectsList() {
                                 "Il a été réalisé dans le cadre d'un évènement de mon école. " +
                                 "Nous étions répartis par groupes de 8 et avions 36h pour mener à bien le projet."
                             }
-                            image={"/ReadNLive.png"}
+                            image={"/PortfolioV2/ReadNLive.png"}
                             infos={
                                 <div className={'justify-content-center'}>
                                     <ul className={'row list-unstyled'}>
