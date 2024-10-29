@@ -66,7 +66,9 @@ export default function ProjectModal({
 
                             <h5 className={"text-white"}>Lien vers le projet</h5>
 
-                            <a href={repository} target={'_blank'}>
+                            <a href={repository}
+                               aria-label="Lien vers le repository du projet"
+                               target={'_blank'}>
                                 <div style={{position: 'relative', width: '100%', height: '75px'}}
                                      className={"mt-2 mb-2"}>
                                     <Image src={'/PortfolioV2/github-mark-white.svg'}

@@ -20,16 +20,24 @@ export default function Sidebar() {
             </div>
             <div className="d-flex flex-column">
 
-                <a href="#accueil" className={styles.navItem}>
+                <a href="#accueil"
+                   aria-label="Raccourci vers l'accueil"
+                   className={styles.navItem}>
                     {isExpanded ? <h4 className="text-center text-white">Mon Portfolio</h4> : <Home/>}
                 </a>
-                <a href="#aboutMe" className={styles.navItem}>
+                <a href="#aboutMe"
+                   aria-label="Raccourci vers à propos"
+                   className={styles.navItem}>
                     {isExpanded ? 'À propos' : <Person/>}
                 </a>
-                <a href="#projects" className={styles.navItem}>
+                <a href="#projects"
+                   aria-label="Raccourci vers projets"
+                   className={styles.navItem}>
                     {isExpanded ? 'Projets' : <DeveloperBoard/>}
                 </a>
-                <a href="#contact" className={styles.navItem}>
+                <a href="#contact"
+                   aria-label="Raccourci vers contact"
+                   className={styles.navItem}>
                     {isExpanded ? 'Contact' : <Email/>}
                 </a>
             </div>

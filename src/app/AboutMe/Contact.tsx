@@ -16,6 +16,7 @@ export default function Contact() {
                                 <h2 className={"mb-3"}>Mon Mail</h2>
                                 <h3>matheodupuis1@gmail.com</h3>
                                 <a href="mailto:matheodupuis1@gmail.com"
+                                   aria-label="Envoyer un mail"
                                    className="btn btn-info text-white mt-2 w-auto"><strong>Me contacter</strong></a>
                             </div>
                         </div>
@@ -26,7 +27,9 @@ export default function Contact() {
                         <div className="card text-white shadow" style={{background: "#1d1f2a", height: "100%"}}>
                             <div className="card-body text-center">
                                 <h2 className={"mb-3"}>Mon GitHub</h2>
-                                <a href={"https://github.com/MatheoD16"} target={'_blank'}>
+                                <a href={"https://github.com/MatheoD16"}
+                                   aria-label="Lien vers mon github"
+                                   target={'_blank'}>
                                     <div style={{position: 'relative', width: '100%', height: '75px'}}
                                          className={"mt-2 mb-2"}>
                                         <Image src={'/PortfolioV2/github-mark-white.svg'}
