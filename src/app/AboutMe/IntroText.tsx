@@ -9,7 +9,7 @@ export default function IntroText() {
                 <h2>Hey 👋, bienvenue sur mon portfolio !</h2>
                 <h5>Ici, vous en apprendrez un peu plus sur moi.</h5>
 
-                <a href="https://drive.google.com/file/d/1PtCDHWME6sXVGJhl_RD71-ifzLvlE50-/view?usp=sharing" target="_blank">
+                <a href="https://drive.google.com/file/d/1KBztEpH4CVsqULh2cMAsNJAtKm9xeyQg/view?usp=sharing" target="_blank">
                     <button className={`btn mt-3 btn-info ${styles.btn}`}><strong>Mon CV</strong></button>
                 </a>
             </div>
